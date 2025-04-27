@@ -9,7 +9,7 @@ resource "azurerm_virtual_machine" "test" {
   location              = "uk west"
   resource_group_name   = "project-setup-1"
   network_interface_ids = ["/subscriptions/59eba330-2ce9-4f7a-904e-57de924d31ac/resourceGroups/project-setup-1/providers/Microsoft.Network/networkInterfaces/terraform-testing"]
-  vm_size               = "Standard_B2ls_v2"
+  vm_size               = "Standard_B2s"
 
    delete_os_disk_on_termination = true
 
