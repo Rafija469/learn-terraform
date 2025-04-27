@@ -1,9 +1,7 @@
 provider "azurerm" {
   features {}
+  subscription_id = "59eba330-2ce9-4f7a-904e-57de924d31ac"
 }
-
-
-
 
 
 resource "azurerm_virtual_machine" "test" {
